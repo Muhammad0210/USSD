@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beline"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ZOR 1"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txt_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:text="Tarif reja bo’yicha taqdim etilgan SMS va daqiqalar kontent-xizmatlarga va axborot xizmatlariga sarflanmaydi. Bunday hollarda aloqa xizmatlaridan foydalanish pullik bo'ladi va mablag’ asosiy balansingizdan tarif rejada belgilangan narxda yechiladi.
+** 2023 yil 15 martgacha Hammasi ZO'R va Status tariflar turkumida maxsus aksiya doirasida tungi bonus trafik taqdim etiladi. Tungi bonus trafiki soat 01.00 dan 08.00 gacha bo’lgan vaqtda sarflanadi. Aksiya amal qilish davrida tarif bo’yicha abonent to’lovi har gal to’langanida tungi bonus trafik beriladi va 1 oy amal qiladi. Amal qilish muddati tugaganidan so’ng sarflanmagan qoldiq kuyadi. Agar aksiya davrida tarif reja Hammasi ZO'R yoki Status tariflaridan biriga o’zgartirilsa avvalgi tarifdan qolgan tungi bonus trafik qoldig’i kuyadi va yangi tarif bo’yicha tungi bonus trafiki taqdim etiladi. Boshqa tariflarga o’zgartirilsa avvalgi tarifdan qolgan tungi bonus trafik qoldig’i kuyadi.
+• Yangi ulanganda yoki tarifga o'tganda oylik abonent to'lovining yechilishi va tarif bo’yicha trafik taqdim etilishi tungi soat 00:00 dan ertalab 06:00 gacha bo’lgan vaqtda amalga oshiriladi. Navbatdagi oylik abonent to'lovi yechilishi va tarif bo'yicha trafik taqdim etilishi 1 oylik vaqt oralig'ida (oyning birinchi sanasiga bog’liq bo’lmagan holda) amalga oshiriladi. Agar oylik abonent toʻlovi oyning oxirgi kalendar kunida yechib olingan boʻlsa va bu sana keyingi kalendar oyida yo‘q bo‘lsa, kunlar sonidan qatʼi nazar, keyingi abonent toʻlovini yechib olish sanasi kalendar oyining oxirgi kuniga belgilanadi. Keyingi oylik abonent to‘lovi yechilishining barcha kunlari kalendar oyining xuddi shu sanasida amalga oshiriladi.
+• Yangi ulanganda yoki tarifga o'tganda oylik abonent to'lovi to'liq yechiladi va tarif bo’yicha trafik ham to'liq taqdim etiladi.
+• Navbatdagi oylik abonent to'lovi to'lanishi kerak bo'lgan sanada abonent balansida yetarli mablag' bo'lsa oylik abonent to'lovi yechiladi va bir oylik trafik paketi taqdim etiladi. Agarda abonent balansida bir oylik abonent to'lovi uchun yetarli mablag' bo'lmasa abonent to'lovi yechilmaydi va tarif bo'yicha belgilangan trafik taqdim etilmaydi. Ushbu holatda aloqa xizmatlari uchun to'lov tarif reja shartlariga asosan narxlanadi.
+• Bir oylik abonent to'lovini to'lash uchun yetarli mablag' jamlanishi bilan u darhol yechiladi va bir oylik paketlar taqdim etiladi. Keyingi oylik abonent to'lovi yeсhilishi sanasi oxirgi abonent to’lovi yechilgan sanadan 1 oyga uzaytiriladi.
+• Tarifda belgilangan oylik trafik qoldig'i amal qilish muddati tugashi bilan kuyadi, keyingi oyda taqdim etiladigan trafikga qo'shilmaydi.
+• Tarif bo’yicha taqdim etilgan GB, daqiqa va SMSlarni faqatgina raqam faol holatda bo’lganida sarflash mumkin.
+• Internetdan foydalanganda avval tarif bo'yicha, so'ng internet paketlar bo'yicha trafik sarflanadi.
+• Tarifga kiritilgan oylik paket tugagandan so’ng uyali aloqa xizmatlaridan foydalanishingiz tarif rejangizda belgilangan narxlarga asosan amalga oshiriladi.
+• Tarifga kiritilgan paketlar taqdim etilgungacha internet, SMS va qo’ng’iroqlar narxlanishi tarif bo’yicha standart narxlar asosida amalga oshiriladi. Tarifga kiritilgan paketlardan foydalanishni boshlashdan oldin, trafik sizga taqdim etilganiga ishonch hosil qiling. Gigabaytlarni tekshirish uchun *103#, daqiqalar uchun - *106#, SMSlar uchun -*105#.
+• Abonent to'lovi yuqori bo'lgan tariflarga o'tilganda sarflanmay qolgan asosiy internet trafik qoldig'i saqlanib qolinadi va yangi tarif bo'yicha taqdim etiladigan asosiy internet trafikka qo'shiladi. Shuningdek amal qilish muddati so'nggi taqdim etilgan trafik muddatiga o'zgaradi. Tarif bo'yicha taqdim etilgan boshqa trafik (asosiy bo'lmagan GBlar, daqiqalar va SMSlar) qoldig'i kuyadi.
+• Raqam ma'muriy blok holatiga tushirilganda blok holati uchun 421 so'm kunlik abonent to'lovi yechiladi. Shunda tarif bo’yicha oylik abonent to’lovi yechilmaydi. Raqam blok holatidan chiqarilganidan so’ng, agar abonent hisobida yetarli mablag’ mavjud bo’lsa, tarif rejaning oylik abonent to'lovi yechiladi va tarif bo'yicha yangi oylik limitlar taqdim etiladi. Sarflanmay qolgan avvalgi limitlar kuyadi. Keyingi abonent to'lovi yechilishi sanasi oxirgi oylik abonent to'lovi yechilgan kundan boshlab 1 oy muddatga suriladi. Agar oylik abonent to’lovi yechilishiga yetarli mablag’ bo’lmasa, u holda aloqa xizmatlaridan foydalanish tarifda belgilangan standart narxlarga asosan amalga oshiriladi. Agar raqam blok holatidan chiqarilgandan so’ng abonent hisobida abonent to’lovi yechilishi uchun yetarli mablag’ bo’lmasa, hisobdan mablag’ yechilmaydi va yangi trafik taqdim etilmaydi. Avvalgi oydan qolgan tarif reja trafiki mavjud bo’lsa, uning amal qilish muddati o’zgarmaydi va taqdim etilgan kundan 1 oy o’tgandan so’ng kuyadi.
+• Tarif rejalarda balans nolga teng yoki qarz holatida bo'lganda ham, abonentlar barcha mobil raqamlardan qo’ng’iroqlar va SMS-xabarlar qabul qilishi mumkin
+• O'zbekistonning chegara hududlarida (Qozog’iston, Tojikiston, Afg’oniston, Qirg’iziston, Turkmaniston chegaralarida) Camel-rouming uchun mablag' yechilishini oldini olish uchun telefoningizning sozlamalar bo’limida Beeline Uz tarmog’ini tanlab qo’yib, telefon ekranida ko’rsatilayotgan operator nomiga ahamiyat berishingizni so’raymiz
+• Хalqaro aloqa uchun hisob-kitob xalqaro aloqa narxi va shahar telefonlariga chiquvchi qo’ng’iroq narxini qo'shgan holda amalga oshiriladi. Qo’ng’iroqni qabul qiluvchi abonent tomonidan raqamni aniqlash xizmati, ovozli pochta xizmati, apparatida faksimil xizmati yoki modem ishga tushishi ulanish hisoblanadi.
+• Barcha tariflarda ovozli xizmatlar uchun bir ulanishning davomiyligi 60 daqiqani tashkil etadi.
+• Foydalanilgan trafik hajmi yuqori tomonga 16 KB aniqlikda yaxlitlanadi.
+• Internet sessiyasi ochilganda, Kompaniya tizimi balansdagi pul mablag'larini zaxiraga olib qo'yadi, ya'ni balansdagi pul mablag'lari boshqa pullik xizmatlardan foydalanish uchun yopilishi mumkin va balans tekshirilganda tizim hisobni to'ldirish zarurligi haqida xabar beradi.
+• Agar abonentda internet-paket mavjud bo'lsa va sessiya uchun internet-paketda yetarli MB bo'lmasa (2 MBdan kam), bu holda keyingi hisoblashlar asosiy balansdan amalga oshiriladi (asosiy balansda mablag’ mavjud bo'lsa). Zaxiralangan pul mablag'lari summasi ishlatiladigan internet trafigi miqdoriga bog'liq bo'ladi. Internet sessiyasi tugashi bilan va ushbu sessiya uchun pul to'langach, abonent hisobidagi qolgan pul mablag'lari ishlatish uchun ochiladi.
+• Mobil qurilmaning IMEI-kodini ro'yxatdan o'tkazish uchun Abonent raqami faol holatida bo'lishi kerak."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</LinearLayout>
